@@ -16,7 +16,7 @@ class Question extends Component {
   }
 
   render() {
-    const { input, toggle } = this.state;
+    const { input, toggle, selection } = this.state;
     return (
       <div>
         <label>
