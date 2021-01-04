@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Question from './Question.jsx';
-import Work from './Work.jsx';
+import Problems from './Problems.jsx';
 
 let Page = styled.div`
   margin: 0;
@@ -23,9 +22,7 @@ class App extends Component {
     return (
       <Page>
         <Title>Algorithm Problems</Title>
-        <Question />
-        <br />
-        <Work />
+        <Problems />
       </Page>
     )
   }

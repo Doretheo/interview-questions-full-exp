@@ -10,9 +10,6 @@ db.once('open', () => { console.log('Database is connected')});
 
 const algoSchema = new Schema({
   problem: String,
-  diagram: String,
-  pseudocode: String,
-  explanation: String,
   results: String,
   date: { type: Date, default: Date.now }
 });
